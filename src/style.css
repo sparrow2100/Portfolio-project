@@ -67,6 +67,10 @@ h2 {
   text-align: center;
 }
 
+.violin-profile {
+  width: 200px;
+}
+
 @media (max-width: 1180px) {
   h1 {
     font-size: 22px;
