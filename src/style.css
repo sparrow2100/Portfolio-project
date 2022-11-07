@@ -39,7 +39,7 @@ body {
   justify-content: space-evenly;
 }
 
-.about-link {
+.button-style {
   text-decoration: none;
   background-color: #80a3a2;
   color: white;
@@ -68,7 +68,31 @@ h2 {
 }
 
 .violin-profile {
-  width: 200px;
+  width: 550px;
+  box-shadow: var(--box-shadow);
+}
+
+.about-container {
+  margin-top: 85px;
+}
+
+.info-wrapper {
+  background-color: var(--second-colour);
+  width: 550px;
+  padding: 50px;
+  box-shadow: var(--box-shadow);
+}
+
+.about-info {
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+}
+
+.about-link {
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 @media (max-width: 1180px) {
