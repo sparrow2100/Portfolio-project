@@ -68,10 +68,57 @@ h2 {
 }
 
 @media (max-width: 1180px) {
-  .profile {
-    width: 100%;
+  h1 {
+    font-size: 22px;
   }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .profile {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .for-image {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
   .for-greeting {
-    width: 100%;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .about-link {
+    width: 150px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 667px) {
+  .profile {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .for-image {
+    display: none;
+  }
+
+  .for-greeting {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .about-link {
+    width: 150px;
+    margin: 0 auto;
   }
 }
