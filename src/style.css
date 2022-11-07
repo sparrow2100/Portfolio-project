@@ -10,11 +10,26 @@ body {
   font-family: Raleway, sans-serif;
 }
 
+.navigation {
+  background-color: var(--second-colour) !important;
+}
+
 .circle {
-  background-color: #abcecf;
-  border-radius: 150px;
+  background-color: var(--second-colour);
+  border-radius: 175px;
+  width: 350px;
+  height: 350px;
+  box-shadow: var(--box-shadow);
+}
+
+#profile-picture {
   width: 300px;
   height: 300px;
+  border-radius: 150px;
+  margin-left: 60px;
+  margin-bottom: 200px;
+  margin-top: 0px;
+  position: absolute;
   box-shadow: var(--box-shadow);
 }
 
@@ -28,16 +43,35 @@ body {
   text-decoration: none;
   background-color: #80a3a2;
   color: white;
-  width: 50px;
-  height: 25px;
+  width: 22%;
   padding: 20px;
-  margin-top: 30px;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
+  text-align: center;
+  display: block;
+  margin-left: 39%;
+  margin-right: 39%;
 }
 
 .about-link:hover {
   color: white;
   background-color: #94b7b6;
   transition: all 200ms ease-in-out;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+@media (max-width: 1180px) {
+  .profile {
+    width: 100%;
+  }
+  .for-greeting {
+    width: 100%;
+  }
 }
