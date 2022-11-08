@@ -198,6 +198,41 @@ h3 {
   box-shadow: var(--box-shadow);
 }
 
+.contact-row {
+  margin: 0 auto;
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-box {
+  background-color: var(--first-colour);
+  color: white;
+  box-shadow: var(--box-shadow);
+  width: 45%;
+  padding: 40px;
+}
+
+.mail-box {
+  background-color: #f9f7fe;
+  border: 1px solid #ebebec;
+  box-shadow: var(--box-shadow);
+  padding: 35px;
+}
+
+.email {
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  color: #80a3a2;
+  font-size: 35px;
+}
+
+.email:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #80a3a2;
+}
+
 @media (max-width: 1180px) {
   h1 {
     font-size: 22px;
