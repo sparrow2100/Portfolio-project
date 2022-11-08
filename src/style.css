@@ -233,6 +233,12 @@ h3 {
   color: #80a3a2;
 }
 
+.footer-div {
+  background-color: #f0f1f3;
+  height: 300px;
+  margin-top: 65px;
+}
+
 @media (max-width: 1180px) {
   h1 {
     font-size: 22px;
