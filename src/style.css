@@ -15,7 +15,7 @@ body {
 }
 
 .circle {
-  background-color: var(--second-colour);
+  background-color: var(--third-colour);
   border-radius: 175px;
   width: 350px;
   height: 350px;
@@ -235,8 +235,30 @@ h3 {
 
 .footer-div {
   background-color: #f0f1f3;
-  height: 300px;
-  margin-top: 65px;
+  height: 200px;
+  margin-top: 75px;
+}
+
+.icon-div {
+  margin-left: 58%;
+}
+
+.icon {
+  color: var(--first-colour);
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 145px;
+}
+
+.repository-link {
+  color: var(--first-colour);
+  text-decoration: none;
+}
+
+.repository-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--first-colour);
 }
 
 @media (max-width: 1180px) {
