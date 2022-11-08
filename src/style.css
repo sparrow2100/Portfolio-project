@@ -53,7 +53,7 @@ body {
   margin-right: 39%;
 }
 
-.about-link:hover {
+.button-style:hover {
   color: white;
   background-color: #94b7b6;
   transition: all 200ms ease-in-out;
@@ -93,6 +93,16 @@ h2 {
   width: 150px;
   margin: 0 auto;
   margin-top: 50px;
+}
+
+.violin-page {
+  width: 300px;
+  box-shadow: var(--box-shadow);
+}
+
+.weather-app {
+  width: 300px;
+  box-shadow: var(--box-shadow);
 }
 
 @media (max-width: 1180px) {
