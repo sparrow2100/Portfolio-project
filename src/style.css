@@ -172,10 +172,15 @@ h3 {
   background-color: #f9f7fe;
   box-shadow: var(--box-shadow);
   border: 1px solid #ebebec;
+  height: 200px;
 }
 
 .lesson-info {
   text-align: center;
+}
+
+.price {
+  color: var(--first-colour);
 }
 
 .middle {
