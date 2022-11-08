@@ -67,6 +67,11 @@ h2 {
   text-align: center;
 }
 
+.bio {
+  line-height: 2;
+  font-size: 18px;
+}
+
 .violin-profile {
   width: 550px;
   box-shadow: var(--box-shadow);
@@ -106,7 +111,7 @@ h2 {
   height: 300px;
   box-shadow: var(--box-shadow);
   margin: 0 auto;
-  border: 1px solid var(--second-colour);
+  border: 1px solid #ebebec;
 }
 
 .green-div {
@@ -129,7 +134,7 @@ h2 {
 
 h3 {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 30px;
   opacity: 0.9;
 }
 
@@ -151,6 +156,13 @@ h3 {
 .weather-app {
   width: 300px;
   box-shadow: var(--box-shadow);
+}
+
+.head {
+  width: 90%;
+  margin: 0 auto;
+  background-color: var(--second-colour);
+  margin-top: 150px;
 }
 
 @media (max-width: 1180px) {
