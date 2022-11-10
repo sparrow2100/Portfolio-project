@@ -67,7 +67,7 @@ h2 {
   text-align: center;
 }
 
-.bio {
+.paragraph {
   line-height: 2;
   font-size: 18px;
 }
@@ -75,6 +75,7 @@ h2 {
 .violin-profile {
   width: 550px;
   box-shadow: var(--box-shadow);
+  margin-left: 40px;
 }
 
 .about-container {
@@ -138,10 +139,12 @@ h3 {
   opacity: 0.9;
 }
 
-.row-container {
+.projects-container {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   margin-bottom: 20px;
+  margin: 0 auto !important;
+  justify-content: center;
 }
 
 .bottom-row {
@@ -163,7 +166,7 @@ h3 {
   margin: 0 auto;
   background-color: var(--third-colour);
   margin-top: 150px;
-  padding: 20px;
+  padding: 30px;
   box-shadow: var(--box-shadow);
 }
 
@@ -173,6 +176,7 @@ h3 {
   box-shadow: var(--box-shadow);
   border: 1px solid #ebebec;
   height: 200px;
+  padding: 15px;
 }
 
 .lesson-info {
@@ -194,13 +198,14 @@ h3 {
 
 .bottom {
   background-color: var(--second-colour);
-  padding: 20px;
+  padding: 30px;
   box-shadow: var(--box-shadow);
 }
 
 .contact-row {
   margin: 0 auto;
   margin-top: 250px;
+  margin-bottom: 250px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -296,7 +301,12 @@ h3 {
     margin: 0 auto;
   }
 }
-@media (max-width: 667px) {
+@media (max-width: 770px) {
+  h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+
   .profile {
     flex-direction: column;
     justify-content: center;
@@ -314,5 +324,71 @@ h3 {
   .about-link {
     width: 150px;
     margin: 0 auto;
+  }
+
+  .about-container {
+    width: 350px;
+    margin-left: 12px;
+    margin-top: 25px;
+  }
+
+  .about-image {
+    margin-left: 5px;
+  }
+
+  .violin-profile {
+    width: 200px;
+    margin-left: 68px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .info-wrapper {
+    width: 350px;
+    padding: 25px;
+    margin: 0 auto;
+  }
+
+  .icon-div {
+    height: 200px;
+    margin-left: 25px;
+  }
+
+  .icon {
+    margin-left: 5px;
+  }
+
+  .repository-link {
+    margin-right: 5px;
+    font-size: 10px;
+  }
+
+  .middle {
+    height: 250px;
+  }
+
+  .lessons {
+    height: 270px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .contact-box {
+    margin: 0 auto;
+    width: 95%;
+    margin-bottom: 30px;
+  }
+
+  .mail-box {
+    text-align: center;
+  }
+
+  .email {
+    font-size: 27px;
+    text-align: center;
   }
 }
