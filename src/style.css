@@ -65,6 +65,8 @@ h1 {
 
 h2 {
   text-align: center;
+  line-height: 2;
+  font-size: 20px;
 }
 
 .paragraph {
@@ -141,10 +143,19 @@ h3 {
 
 .projects-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin-bottom: 20px;
   margin: 0 auto !important;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.project {
+  margin-top: 50px;
+}
+
+.project-description {
+  text-align: center;
 }
 
 .bottom-row {
@@ -157,7 +168,7 @@ h3 {
 }
 
 .weather-app {
-  width: 300px;
+  width: 350px;
   box-shadow: var(--box-shadow);
 }
 
