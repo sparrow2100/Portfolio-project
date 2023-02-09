@@ -113,7 +113,7 @@ h2 {
 .project-content {
   background-color: #f9f7fe;
   width: 400px;
-  height: 300px;
+  height: 400px;
 
   margin: 0 auto;
   border: 1px solid #ebebec;
@@ -134,7 +134,7 @@ h2 {
 .project-link {
   width: 150px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 h3 {
@@ -280,6 +280,10 @@ h3 {
   text-decoration: underline;
   cursor: pointer;
   color: var(--first-colour);
+}
+
+.hidden{
+  display: none;
 }
 
 @media (max-width: 1180px) {
