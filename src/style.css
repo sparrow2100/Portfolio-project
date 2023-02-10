@@ -82,17 +82,15 @@ h2 {
   margin-top: 85px;
 }
 
-.info-wrapper {
-  background-color: var(--second-colour);
-  width: 1200px;
-  padding: 50px;
-  box-shadow: var(--box-shadow);
-}
+
 
 .about-info {
   background-color: white;
   box-shadow: var(--box-shadow);
   padding: 20px;
+  width: 800px;
+  border-right: 2px solid var(--first-colour);
+ 
 }
 
 .about-link {
