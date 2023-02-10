@@ -73,14 +73,10 @@ h2 {
 
 .paragraph {
   line-height: 2;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-.violin-profile {
-  width: 550px;
-  box-shadow: var(--box-shadow);
-  margin-left: 40px;
-}
+
 
 .about-container {
   margin-top: 85px;
@@ -88,7 +84,7 @@ h2 {
 
 .info-wrapper {
   background-color: var(--second-colour);
-  width: 550px;
+  width: 1200px;
   padding: 50px;
   box-shadow: var(--box-shadow);
 }
