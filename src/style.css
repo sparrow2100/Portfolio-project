@@ -279,6 +279,22 @@ h3 {
 .hidden{
   display: none;
 }
+.certifications{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 70px;
+  }
+
+  .certificate:hover{
+    opacity: 0.8;
+    transition: all 400ms ease-in-out;
+  }
+
+  .certificate-container{
+    margin-top: 30px;
+  }
 
 @media (max-width: 1180px) {
   h1 {
@@ -315,12 +331,7 @@ h3 {
     margin: 0 auto;
   }
 
-  .certifications{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-  }
+  
 }
 @media (max-width: 770px) {
   h1 {
