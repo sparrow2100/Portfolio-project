@@ -293,8 +293,15 @@ h3 {
   }
 
   .certificate-container{
-    margin-top: 30px;
+    margin-top: 50px;
+    
   }
+
+  .certificate-title{
+    margin-top: 100px;
+  }
+
+ 
 
 @media (max-width: 1180px) {
   h1 {
