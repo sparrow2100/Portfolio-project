@@ -314,6 +314,13 @@ h3 {
     width: 150px;
     margin: 0 auto;
   }
+
+  .certifications{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
 }
 @media (max-width: 770px) {
   h1 {
