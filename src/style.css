@@ -111,6 +111,15 @@ h2 {
   margin-top: 50px;
 }
 
+.profile-link{
+  text-decoration: none;
+  color:#80a3a2;
+}
+
+.profile-link:hover{
+  color:#abcecf;
+}
+
 .title-section {
   margin-top: 150px;
   margin-bottom: 100px;
@@ -350,6 +359,15 @@ h3 {
     margin: 0 auto;
   }
 
+  .about-grid{
+    flex-wrap: wrap;
+  }
+
+  .about-info{
+    border-right: none;
+    border-bottom: 2px solid var(--first-colour);
+  }
+
   
 }
 @media (max-width: 770px) {
@@ -381,6 +399,21 @@ h3 {
     width: 350px;
     margin-left: 12px;
     margin-top: 25px;
+  }
+
+  .about-grid{
+    flex-wrap: wrap;
+  }
+
+    .about-info{
+    border-right: none;
+    border-bottom: 2px solid var(--first-colour);
+    max-width: 500px;
+  }
+
+  .about-photo{
+   margin-left: 100px;
+   margin-top: 40px;
   }
 
   .about-image {
